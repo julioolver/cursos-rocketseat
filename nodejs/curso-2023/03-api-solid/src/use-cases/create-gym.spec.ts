@@ -15,8 +15,8 @@ describe('create gym repository', () => {
     const { gym } = await sut.execute({
       title: 'teste-gym',
       description: '',
-      latitude: -123131213,
-      longitude: -12313123122,
+      latitude: -28.4499965,
+      longitude: -52.2230948,
       phone: '549999999',
     })
 
