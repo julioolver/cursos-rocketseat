@@ -4,6 +4,7 @@ import { z } from 'zod'
 const envSchema = z.object({
   NODE_ENV: z.enum(['dev', 'test', 'production']).default('dev'),
   PORT: z.coerce.number().default(3333),
+  JWT_SECRET: z.string(),
   // coerce: pega o valor que existe no env PORT, e converte/força para number, indiferente do valor que vir
 })
 

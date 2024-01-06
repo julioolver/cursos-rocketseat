@@ -1,4 +1,3 @@
-import { UserAlreadyExistsError } from './errors/user-already-exists-error'
 import { Gym } from '@prisma/client'
 import { GymsRepository } from '../repositories/gyms-repository'
 
